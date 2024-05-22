@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+}
+
+/* header starts */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+  height: 70px;
+  align-items: center;
+  color: white;
+  font-family: "Baloo Paaji 2", sans-serif;
+  background-color: rgb(126, 76, 126);
+}
+
+.navlinks {
+  /* background-color: aqua; */
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+/* header end */
+
+.boxshadow{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 60%;
+    column-gap: 2rem;
+}
+
+.insetshadow {
+  /* box-shadow: x-offset, y-offset, blur, spread, color; */
+  height: 150px;
+  width: 150px;
+  box-shadow: 0px 0px 11px 2px rgb(30, 26, 26);
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.outsetshadow {
+  /* box-shadow: x-offset, y-offset, blur, spread, color; */
+
+  height: 150px;
+  width: 150px;
+  box-shadow: 9px 7px 11px 2px rgb(219, 214, 214);
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.layer {
+    /* box-shadow: x-offset, y-offset, blur, spread, color; */
+  
+    height: 150px;
+    width: 150px;
+    box-shadow: 3px 4px 0px 2px rgb(178, 243, 255),
+    8px 8px 0px 2px black,
+    3px 4px 0px 2px rgb(79, 84, 214),
+    8px 8px 0px 2px rgb(238, 56, 226),
+    3px 4px 0px 2px rgb(197, 255, 7),
+    8px 8px 0px 2px rgb(19, 233, 218),
+    3px 4px 0px 2px rgb(13, 16, 86),
+    8px 8px 0px 2px rgb(126, 17, 17),
+    3px 4px 0px 2px rgb(0, 141, 38), 
+    8px 8px 0px 2px rgb(76, 244, 24);
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }

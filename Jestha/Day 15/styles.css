@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=Sora:100,200,300,regular,500,600,700,800);
+*{
+    margin:0;
+}
+
+body{
+    color: wheat;
+    font-family: "Sora", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.navlinks{
+    width: 50%;
+    display: flex;
+
+}
+.navlinks ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    padding: 1rem 2.5rem;
+    background-color: rgb(120,70,222);
+    border-radius: 2rem;
+}
+
+.mainhero{
+    background-color: #0f0715;
+}
+
+.hero{
+    background-color: rgb(15,7,21);
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem 0 2rem;
+}
+
+.herointro{
+    width: 40%;
+}
+
+.info span{
+    font-size: 2rem;
+}
+
+.info h1{
+    font-size: 3rem;
+}
+
+.info p{
+    font-size: 1 rem;
+    margin-top: 1rem;
+}
+
+.links{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.links button{
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    outline: none;
+    border: 1px;
+    border: 2px solid  rgb(120,70,222);
+    color: #7f4bea;
+    background-color: rgb(15,7,21);
+    font-size: 1.2rem;
+}
+
+.links button:hover{
+    background-color:  rgb(120,70,222);
+    color: white;
+    cursor: pointer;
+}
+.sociallinks ul{
+    display: flex ;
+    list-style-type: none;
+    /* background-color: blue; */
+    column-gap: 2rem;
+}
+
+.sociallinks ul li{
+border: 1px solid rgb(120,70,222);
+border-radius: 100%;
+padding: 0.5rem;
+}
+
+.sociallinks ul li :hover{
+    color: #7f4bea;
+}
+
+.sociallinks ul li i{
+    color: #7f4bea;
+}
+
+.sociallinks ul li i:hover{
+    color: white;
+}
+
+.profile img{
+    width: 438px;
+    border: 2px solid rgb(120,70,222);
+    border-radius: 1rem;
+    transform: rotate(4.3deg);
+    transition: all 0.2s;
+}
+
+.profile img:hover{
+    border: 2px solid white;
+    transform: rotate(0);
+    box-shadow: 0px 0px 14px 2px #592faa ;
+}
+
+.mcount{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f0715;
+}
+
+.count{
+    display: flex;
+    align-items: center;
+}
+
+.number{
+    font-size: 4rem;
+}
+
+/* qualty starts */
+
+.quality{
+    background-color: #0f0715;
+    padding-bottom: 100px;
+}
+
+.qhaeding{
+    font-size: 45px;
+}
+
+.qintro{
+    background-color: #0f0715;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.branding{
+    background-color: #0f0715;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    border-bottom: 1px solid #3a1583;
+}
+
+.branding:hover{
+    background-color: #7f4bea;
+}
+
+.bname{
+    font-size: xx-large;
+}
+
+/* timeline starts */
+
+.timeline{
+    background-color: #050705;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 150px;
+}
+
+.exheading{
+    display: flex;
+    column-gap: 1rem;
+}
+
+.time{
+    background-color: #140c1c;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.time:hover{
+    background-color: #7f4bea;
+}
+
+.myexperience{
+    width: 40%;
+}
+
+.myeducation{
+    width: 40%;
+}

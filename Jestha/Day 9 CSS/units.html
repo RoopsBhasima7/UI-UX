@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .parent{
+            height: 800px;
+            width: 800px;
+            background-color: lightseagreen;
+        }
+        .box{
+            background-color: lightpink;
+            /* height: 200px;
+            width: 500px; */
+            /* height: 200px;
+            width: 50%; */
+            height: 50%;
+            width: 50%;
+        }
+        .description{
+            font-size: 20px;
+        }
+        p{
+            font-size: 2em;
+        }
+        /* 1 rem = 16px */  
+    </style>
+</head>
+<body>
+    <h3>CSS Units</h3>
+    <div class="description">
+        <p>Lorem ipsum dolor sit.</p>
+    </div>  
+    <!-- <h3>CSS Units</h3>
+    <ol>
+        <li>px(pixels/related to it's normal size/fixed(not use for responsive))</li>
+        <li>%(percentage/related to it's parent)</li>
+        <li>vh(related to view port's height)</li>
+        <li>vw(related to view port's width)</li>
+        <li>rem(related to html's root element(html font size))</li>
+        <li>em(related to parent)</li>
+    </ol>
+    <br> -->
+    <div class="parent">
+        <div class="box"></div>
+    </div>  
+</body>
+</html>

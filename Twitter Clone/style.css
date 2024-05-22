@@ -1,0 +1,213 @@
+/* custom fonts */
+
+blockquote.twitter-tweet {
+    display: inline-block;
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    border-color: #eee #ddd #bbb;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    margin: 10px 5px;
+    padding: 0 16px 16px 16px;
+    max-width: 468px;
+  }
+  
+  blockquote.twitter-tweet p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+  }
+  
+  blockquote.twitter-tweet a {
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
+    outline: 0 none;
+  }
+  
+  blockquote.twitter-tweet a:hover,
+  blockquote.twitter-tweet a:focus {
+    text-decoration: underline;
+  }
+
+  /* global css */
+
+  *::before,
+  *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    color: #fff;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  body{
+    background-color: #15202b;
+  }
+
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+  input:focus{
+    outline: none;
+  }
+
+  img{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: 243px auto 350px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .left-side{
+    position: fixed;
+    height: 100vh;
+    width: 240px;
+    padding: 0 12px 0 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .left-navbar{
+    width: 245px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .left-navbar .left-side .logo{
+    height: 2rem;
+  }
+
+  .left-side svg,
+  .content-header svg,
+  .post-header svg,
+  .trends svg{
+    fill: #fff;
+    height: 1.7rem;
+  }
+
+  .left-navbar>div:not(.profile-btn)>div:nth-child(1){
+    padding: 12px;
+  }
+
+  .left-navbar a{
+    display: flex;
+    padding: 4px 0;
+  }
+
+  .left-navbar a div{
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    border-radius: 99999px;
+  }
+
+  .left-navbar a div:hover{
+    background-color: var(--shadow-color);
+  }
+
+  .left-navbar a span{
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    margin-left: 20px;
+    margin-right: 16px;
+  }
+
+  .tweet-btn{
+    font-family: var(--main-font);
+    font-size: 16px;
+    width: 65%;
+    height: 30px;
+    font-weight: 700;
+    border: none;
+    letter-spacing: 0.2px;
+    background-color: rgb(29, 155, 240);
+    border-radius: 30px;
+    color: inherit;
+    margin: 16px 0;
+  }
+
+  .tweet-btn .t-first{
+    width: 85%;
+    height: 50px;
+  }
+
+  .left-side .right-column{
+    display: flex;
+    align-items: center;
+  }
+
+  .left-side .right-column svg{
+    margin-left: 60px;
+  }
+
+  .profile-btn{
+    display: flex;
+    margin: 12px 0;
+    padding: 12px;
+    cursor: pointer;
+    width: calc(100% + 12px);
+    border-radius: 9999px;
+  }
+
+  .profile-btn :hover{
+    background-color: rgb(29, 155, 240);
+  }
+
+  .profile-btn img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .profile-btn svg,
+  .details svg,
+  .search-bar svg{
+    height: 1.25rem;
+    margin-left: 5px;
+    vertical-align: bottom;
+  }
+
+  .tag,
+  .time,
+  .dot,
+  .details svg{
+    color: rgb(136, 153, 166);
+    fill: rgb(136, 153, 166);
+    display: block;
+  }
+
+  .right-column{
+    margin-left: 15px;
+  }
+
+  .content{
+    border: 1px solid var(--border-color);
+    border-top: none;
+    border-bottom: none;
+  }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .thulobox{
+            /* height: 200px;
+            width: 200px; */
+            border: 2px solid black;
+            display: flex;
+            width: 50%;
+            height: 50vh;
+            position: relative;
+            /* z-index: 11; */
+        }
+        .sanobox{
+            height: 40px;
+            width: 40px;
+            border: 4px solid lightcoral;
+            background-color: lightgreen;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* font-size: 8rem; */
+        }
+        #box1{
+            /* margin-left: 3rem; */
+            /* position: static; */
+            /* position: relative; */
+            /* left: 3rem; */
+            height: 40px;
+            position: fixed;
+            right: 0;
+            bottom: 2rem;
+            /* top: 40rem; */
+        }
+        .navbar{
+            height: 60px;
+            width: 100%;
+            background-color: lightgreen;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+        ol{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h2>Position Types</h2>
+    <ol>
+        <li>Static(default position)</li>
+        <li>Fixed(scroll position don't move.)</li>
+        <li>Sticky(when scroll div will stick)</li>
+        <li>Relative(normal position)</li>
+        <li>Absolute(relative to parent)</li>
+    </ol> -->
+    <div class="navbar">
+        <ol>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>Blog</li>
+            <li>Skills</li>
+        </ol>
+    </div>
+
+    <div class="thulobox">
+        <div class="sanobox" id="box1">1</div>
+        <div class="sanobox">2</div>
+        <div class="sanobox">3</div>
+        <div class="sanobox">4</div>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus doloribus numquam, quibusdam, saepe magni vel officiis at ipsa dignissimos incidunt unde iure odit eos quaerat quasi reprehenderit qui animi in expedita quas aperiam voluptatem? Sint, facere beatae. Distinctio saepe aliquid quidem maxime iste quas nemo tenetur tempore possimus sint eius voluptatem, laboriosam amet quibusdam consequuntur aut praesentium repellendus ut? Voluptates, autem itaque. Est maiores, rerum a impedit ratione debitis vel. Repellat recusandae perferendis et est autem rerum sequi dicta assumenda, possimus dolorem iure nemo laborum saepe eum nostrum? In, eum incidunt? Veritatis magni rerum molestias recusandae. Delectus, debitis tempore?</p>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus doloribus numquam, quibusdam, saepe magni vel officiis at ipsa dignissimos incidunt unde iure odit eos quaerat quasi reprehenderit qui animi in expedita quas aperiam voluptatem? Sint, facere beatae. Distinctio saepe aliquid quidem maxime iste quas nemo tenetur tempore possimus sint eius voluptatem, laboriosam amet quibusdam consequuntur aut praesentium repellendus ut? Voluptates, autem itaque. Est maiores, rerum a impedit ratione debitis vel. Repellat recusandae perferendis et est autem rerum sequi dicta assumenda, possimus dolorem iure nemo laborum saepe eum nostrum? In, eum incidunt? Veritatis magni rerum molestias recusandae. Delectus, debitis tempore?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus doloribus numquam, quibusdam, saepe magni vel officiis at ipsa dignissimos incidunt unde iure odit eos quaerat quasi reprehenderit qui animi in expedita quas aperiam voluptatem? Sint, facere beatae. Distinctio saepe aliquid quidem maxime iste quas nemo tenetur tempore possimus sint eius voluptatem, laboriosam amet quibusdam consequuntur aut praesentium repellendus ut? Voluptates, autem itaque. Est maiores, rerum a impedit ratione debitis vel. Repellat recusandae perferendis et est autem rerum sequi dicta assumenda, possimus dolorem iure nemo laborum saepe eum nostrum? In, eum incidunt? Veritatis magni rerum molestias recusandae. Delectus, debitis tempore?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus doloribus numquam, quibusdam, saepe magni vel officiis at ipsa dignissimos incidunt unde iure odit eos quaerat quasi reprehenderit qui animi in expedita quas aperiam voluptatem? Sint, facere beatae. Distinctio saepe aliquid quidem maxime iste quas nemo tenetur tempore possimus sint eius voluptatem, laboriosam amet quibusdam consequuntur aut praesentium repellendus ut? Voluptates, autem itaque. Est maiores, rerum a impedit ratione debitis vel. Repellat recusandae perferendis et est autem rerum sequi dicta assumenda, possimus dolorem iure nemo laborum saepe eum nostrum? In, eum incidunt? Veritatis magni rerum molestias recusandae. Delectus, debitis tempore?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus doloribus numquam, quibusdam, saepe magni vel officiis at ipsa dignissimos incidunt unde iure odit eos quaerat quasi reprehenderit qui animi in expedita quas aperiam voluptatem? Sint, facere beatae. Distinctio saepe aliquid quidem maxime iste quas nemo tenetur tempore possimus sint eius voluptatem, laboriosam amet quibusdam consequuntur aut praesentium repellendus ut? Voluptates, autem itaque. Est maiores, rerum a impedit ratione debitis vel. Repellat recusandae perferendis et est autem rerum sequi dicta assumenda, possimus dolorem iure nemo laborum saepe eum nostrum? In, eum incidunt? Veritatis magni rerum molestias recusandae. Delectus, debitis tempore?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus doloribus numquam, quibusdam, saepe magni vel officiis at ipsa dignissimos incidunt unde iure odit eos quaerat quasi reprehenderit qui animi in expedita quas aperiam voluptatem? Sint, facere beatae. Distinctio saepe aliquid quidem maxime iste quas nemo tenetur tempore possimus sint eius voluptatem, laboriosam amet quibusdam consequuntur aut praesentium repellendus ut? Voluptates, autem itaque. Est maiores, rerum a impedit ratione debitis vel. Repellat recusandae perferendis et est autem rerum sequi dicta assumenda, possimus dolorem iure nemo laborum saepe eum nostrum? In, eum incidunt? Veritatis magni rerum molestias recusandae. Delectus, debitis tempore?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus doloribus numquam, quibusdam, saepe magni vel officiis at ipsa dignissimos incidunt unde iure odit eos quaerat quasi reprehenderit qui animi in expedita quas aperiam voluptatem? Sint, facere beatae. Distinctio saepe aliquid quidem maxime iste quas nemo tenetur tempore possimus sint eius voluptatem, laboriosam amet quibusdam consequuntur aut praesentium repellendus ut? Voluptates, autem itaque. Est maiores, rerum a impedit ratione debitis vel. Repellat recusandae perferendis et est autem rerum sequi dicta assumenda, possimus dolorem iure nemo laborum saepe eum nostrum? In, eum incidunt? Veritatis magni rerum molestias recusandae. Delectus, debitis tempore?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus doloribus numquam, quibusdam, saepe magni vel officiis at ipsa dignissimos incidunt unde iure odit eos quaerat quasi reprehenderit qui animi in expedita quas aperiam voluptatem? Sint, facere beatae. Distinctio saepe aliquid quidem maxime iste quas nemo tenetur tempore possimus sint eius voluptatem, laboriosam amet quibusdam consequuntur aut praesentium repellendus ut? Voluptates, autem itaque. Est maiores, rerum a impedit ratione debitis vel. Repellat recusandae perferendis et est autem rerum sequi dicta assumenda, possimus dolorem iure nemo laborum saepe eum nostrum? In, eum incidunt? Veritatis magni rerum molestias recusandae. Delectus, debitis tempore?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus doloribus numquam, quibusdam, saepe magni vel officiis at ipsa dignissimos incidunt unde iure odit eos quaerat quasi reprehenderit qui animi in expedita quas aperiam voluptatem? Sint, facere beatae. Distinctio saepe aliquid quidem maxime iste quas nemo tenetur tempore possimus sint eius voluptatem, laboriosam amet quibusdam consequuntur aut praesentium repellendus ut? Voluptates, autem itaque. Est maiores, rerum a impedit ratione debitis vel. Repellat recusandae perferendis et est autem rerum sequi dicta assumenda, possimus dolorem iure nemo laborum saepe eum nostrum? In, eum incidunt? Veritatis magni rerum molestias recusandae. Delectus, debitis tempore?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus doloribus numquam, quibusdam, saepe magni vel officiis at ipsa dignissimos incidunt unde iure odit eos quaerat quasi reprehenderit qui animi in expedita quas aperiam voluptatem? Sint, facere beatae. Distinctio saepe aliquid quidem maxime iste quas nemo tenetur tempore possimus sint eius voluptatem, laboriosam amet quibusdam consequuntur aut praesentium repellendus ut? Voluptates, autem itaque. Est maiores, rerum a impedit ratione debitis vel. Repellat recusandae perferendis et est autem rerum sequi dicta assumenda, possimus dolorem iure nemo laborum saepe eum nostrum? In, eum incidunt? Veritatis magni rerum molestias recusandae. Delectus, debitis tempore?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus doloribus numquam, quibusdam, saepe magni vel officiis at ipsa dignissimos incidunt unde iure odit eos quaerat quasi reprehenderit qui animi in expedita quas aperiam voluptatem? Sint, facere beatae. Distinctio saepe aliquid quidem maxime iste quas nemo tenetur tempore possimus sint eius voluptatem, laboriosam amet quibusdam consequuntur aut praesentium repellendus ut? Voluptates, autem itaque. Est maiores, rerum a impedit ratione debitis vel. Repellat recusandae perferendis et est autem rerum sequi dicta assumenda, possimus dolorem iure nemo laborum saepe eum nostrum? In, eum incidunt? Veritatis magni rerum molestias recusandae. Delectus, debitis tempore?</p>
+</body>
+</html>

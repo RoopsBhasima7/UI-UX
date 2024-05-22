@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rebeccapurple;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: lightblue;
+    position: sticky;
+    top: 0;
+}
+.nav_links ul{
+    display: flex;
+    list-style-type: none;
+}
