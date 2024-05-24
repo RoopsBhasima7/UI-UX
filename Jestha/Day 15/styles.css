@@ -59,6 +59,7 @@ a{
     display: flex;
     justify-content: space-around;
     padding: 4rem 2rem 0 2rem;
+    padding-bottom: 100px;
 }
 
 .herointro{
@@ -100,6 +101,7 @@ a{
     color: white;
     cursor: pointer;
 }
+
 .sociallinks ul{
     display: flex ;
     list-style-type: none;
@@ -143,6 +145,7 @@ padding: 0.5rem;
     display: flex;
     justify-content: space-around;
     background-color: #0f0715;
+    padding-bottom: 100px;
 }
 
 .count{
@@ -158,7 +161,6 @@ padding: 0.5rem;
 
 .quality{
     background-color: #0f0715;
-    padding-bottom: 100px;
 }
 
 .qhaeding{
@@ -172,6 +174,7 @@ padding: 0.5rem;
     justify-content: center;
     align-items: center;
     width: 100%;
+    row-gap: 1rem;
 }
 
 .branding{
@@ -197,7 +200,8 @@ padding: 0.5rem;
     background-color: #050705;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 7rem;
 }
 
 .exheading{
@@ -222,4 +226,54 @@ padding: 0.5rem;
 
 .myeducation{
     width: 40%;
+}
+
+/* skills starts  */
+.skillssection{
+    background-color: #0f0715;
+    padding: 5rem;
+    padding-bottom: 8rem;
+}
+.skillsheader{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    margin-bottom: 2rem;
+}
+.gparent{
+    display: flex;
+    justify-content: center;
+}
+.parentskill{
+    display: flex;
+    width: 85%;
+    /* column-gap: 2rem; */
+    /* justify-content: space-between; */
+    /* background-color: aqua; */
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.skills p{
+    text-align: center;
+    margin-top: 1rem;
+}
+.items{
+    padding: 2.5rem 3.5rem;
+    border-radius: 1.5rem;
+    background-color: #140c1c;
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    transition: all 2s;
+}
+.items:hover{
+    background-color: #7f4bea;
+    border: 2px solid #9061ee;
+    opacity: .3;
+}
+.items img{
+    width: 55px;
 }
