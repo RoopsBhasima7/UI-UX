@@ -175,6 +175,7 @@ padding: 0.5rem;
     align-items: center;
     width: 100%;
     row-gap: 1rem;
+    padding-bottom: 2rem;
 }
 
 .branding{
@@ -276,4 +277,122 @@ padding: 0.5rem;
 }
 .items img{
     width: 55px;
+}
+/* blog starts */
+.blogcontainer{
+    display: flex;
+    justify-content: center;
+}
+.blogitems{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.blogssection{
+    background-color: #050705;
+    padding: 5rem;
+    padding-bottom: 8rem;
+}
+.blogsheader{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    margin-bottom: 2rem;
+}
+.section .blog{
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+}
+.blog img{
+    border-radius: 15px;
+    position: relative;
+}
+.blog_content{
+    width: calc(100% - 40px);
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    position: absolute;
+    bottom: 15px;
+    background: #2a1454;
+    border-radius: 15px;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 1;
+}
+.blog_meta{
+    flex-wrap: wrap;
+}
+.ul_reset{
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.ul_reset li{
+    font-size: 14px;
+    color: #8750f7;
+}
+.blog_title{
+    color: white;
+    text-align: left;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.sub_category{
+    display: inline-block;
+    background-size: 200%;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: #8750f7;
+    padding: 7px 10px;
+    border-radius: 50px;
+    line-height: 1;
+    z-index: 2;
+    left: 15px;
+    top: 15px;
+    position: absolute;
+}
+.blogsection{
+    background: #140c1c;
+    border-radius: 15px;
+    max-width: 400px;
+    position: relative;
+    z-index: 1;
+}
+.contactsection{
+    background-color: #140c1c;
+    padding-top: 8rem;
+}
+.formsection{
+    width: 48%;
+    background: #2a1454;
+    padding: 50px;
+    border-radius: 14px;
+}
+.formsection input{
+    display: block;
+    width: 40%;
+    background: #050709;
+    border: 1px solid #22272c;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 14px 20px;
+    height: auto;
+    color: white;
+    border-radius: 8px;
+    margin-top: 2rem;
 }
