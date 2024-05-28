@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Sora:100,200,300,regular,500,600,700,800);
 *{
     margin:0;
+    box-sizing: border-box;
 }
 
 body{
@@ -377,15 +378,27 @@ padding: 0.5rem;
     background-color: #140c1c;
     padding-top: 8rem;
 }
+.formheader{
+    margin-bottom: 20px;
+}
+.formheader .header{
+    margin-bottom: 15px;
+}
 .formsection{
-    width: 48%;
+    width: 50%;
     background: #2a1454;
     padding: 50px;
     border-radius: 14px;
+    margin-left: 85px;
+}
+.forminput{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
 }
 .formsection input{
-    display: block;
-    width: 40%;
+    width: 100%;
+    max-width: 325px;
     background: #050709;
     border: 1px solid #22272c;
     font-size: 16px;
@@ -394,5 +407,6 @@ padding: 0.5rem;
     height: auto;
     color: white;
     border-radius: 8px;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 15px; */
 }
