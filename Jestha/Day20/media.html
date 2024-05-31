@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+
+    <style>
+      body {
+        background-color: lightblue;
+      }
+
+      /* @media screen and ( size) {
+            selectors 
+        } */
+
+      /* @media screen and ( max-width: 768px) { */
+      /* @media screen and ( min-width: 768px) { */
+      /* @media screen and (orientation: landscape ) { */
+      /* @media screen and (orientation: portrait ) {
+            body{
+                background-color: lightcoral;
+            }
+        } */
+      .box {
+        display: flex;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+      }
+
+      .items {
+        border: 2px solid black;
+        height: 120px;
+        width: 120px;
+      }
+
+      @media screen and (max-width: 980px) {
+        .box {
+          flex-wrap: wrap;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items"></div>
+    </div>
+  </body>
+</html>
