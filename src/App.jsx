@@ -90,6 +90,15 @@ function App() {
   else if( marks == 31 || marks < 35){
     console.log("Good")
   }
+  else if( marks == 36 || marks < 40){
+    console.log("Very Good")
+  }
+  else if( marks == 41 || marks < 45){
+    console.log("Excellent")
+  }
+  else if( marks == 46 || marks < 50){
+    console.log("Outstanding")
+  }
   return (
     <>
       <h2>Arithematic Operator</h2>
