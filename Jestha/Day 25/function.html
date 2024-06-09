@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <script>
+        // console.log("R")
+        // console.log("U")
+        // console.log("P")
+        // console.log("E")
+        // console.log("S")
+        // console.log("H")
+
+        // let a = 30;
+        // let b = 40;
+
+        // c = a + b;
+
+        // console.log(c);
+
+        // function functionName( parameter ){
+        //     statement
+        // }
+        // functionName(arguments)
+
+        // function addTwoNumber(num1, num2){
+        //     console.log("add two number:",num1 + num2)
+        // }
+        // addTwoNumber(50, 40)
+
+        function addTwoNumber(num1, num2){
+            // console.log("add two number:",num1 + num2)
+            let result = num1 + num2;
+            return result
+        }
+        let result = addTwoNumber(50,40)
+        console.log("result:", result)
+
+        // function loginUserMessage(user = "Ram"){
+        function loginUserMessage(user){
+            if ( user === undefined){
+                console.log("Please enter your username.")
+            } return
+            console.log(`${user} login successfully!`)
+        }
+        // loginUserMessage("Shyam")
+        loginUserMessage()
+
+        // const login = () => {
+        //     return(
+        //         <>
+        //         hello
+        //         </>
+        //     )
+        // }
+        // login()
+    </script>
+</body>
+</html>
