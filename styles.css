@@ -392,8 +392,13 @@ a {
   z-index: 1;
 }
 .contactsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   background-color: #140c1c;
   padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 .formheader {
   margin-bottom: 20px;
@@ -414,12 +419,14 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
-.forminput{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  /* background-color: white; */
-  }
+.text-box p{
+  padding-bottom: 0.3rem;
+  color: #ddd;
+}
+.text-box a{
+  font-size: 20px;
+  font-weight: 500;
+}
 .column{
   width: 100%;
   background: #050709;
@@ -432,8 +439,8 @@ a {
   border-radius: 8px;
   margin-bottom: 15px;
 }
-.forminput input {
-  width: 100%;
+.inputform input {
+  /* width: 100%; */
   background: #050709;
   border: 1px solid #22272c;
   font-size: 16px;
@@ -443,22 +450,27 @@ a {
   margin-bottom: 15px;
 }
 .inputform{
-  width: 50%;
-  display: flex;
+  display: grid;
+  column-gap: 15px;
   flex-wrap: wrap;
   flex-direction: column;
+  /* grid-template-columns: repeat(2,1fr); */
+  grid-template-columns: 322px 322px;
 }
 .select-box select{
   width: 100%;
   outline: none;
   border: none;
   font-size: 16px;
+  color: white;
+  background-color: #050709;
 }
 .forminput textarea{
   width: 100%;
   background: #050709;
   border: 1px solid #22272c;
   font-size: 16px;
+  font: inherit;
   position: relative;
   line-height: 1.5;
   padding: 14px 20px;
@@ -490,4 +502,64 @@ a {
   background-color: #8750f7;
   font-size: 20px;
   line-height: 1;
+}
+.widget-container{
+  width: 50%;
+}
+.ul-reset{
+  display: flex;
+  list-style-type: none;
+}
+.ul-reset li{
+  display: flex;
+  position: relative;
+  padding-left: 75px;
+}
+.widget-container .ul-reset{
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.footer-area{
+  padding-top: 8rem;
+  background-color: #050705;
+}
+.logo-box{
+  max-width: 75px;
+  width: 100%;
+  margin: 0 auto 35px;
+}
+.logo-box img{
+  width: 75px;
+}
+.footer-area{
+  padding: 50px 0 20px;
+}
+.footer-menu ul{
+  margin: 0 0 27px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  padding-left: 2rem;
+}
+.footer-menu ul li{
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+.copy-text{
+  text-align: center;
+  font-size: 15px;
+  color: #8750f7;
+}
+.copy-text a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-family: inherit;
 }
