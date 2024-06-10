@@ -15,7 +15,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 80px;
-  width: 80%;
+  /* width: 80%; */
   background-color: black;
 }
 
@@ -418,17 +418,8 @@ a {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-}
-.forminput input {
-  width: 50%;
-  background: #050709;
-  border: 1px solid #22272c;
-  font-size: 16px;
-  line-height: 1.5;
-  padding: 14px 20px;
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
+  /* background-color: white; */
+  }
 .column{
   width: 100%;
   background: #050709;
@@ -438,9 +429,24 @@ a {
   line-height: 1.5;
   padding: 14px 20px;
   height: auto;
-  color: white;
   border-radius: 8px;
   margin-bottom: 15px;
+}
+.forminput input {
+  width: 100%;
+  background: #050709;
+  border: 1px solid #22272c;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 14px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.inputform{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .select-box select{
   width: 100%;
