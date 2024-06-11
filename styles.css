@@ -427,6 +427,9 @@ a {
   font-size: 20px;
   font-weight: 500;
 }
+.text-box a:hover{
+  color: #7f4bea;
+}
 .column{
   width: 100%;
   background: #050709;
@@ -514,6 +517,7 @@ a {
   display: flex;
   position: relative;
   padding-left: 75px;
+  gap: 20px;
 }
 .widget-container .ul-reset{
   display: flex;
