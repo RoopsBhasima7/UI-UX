@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h2 id="heading">Mindrisers Courses</h2>
+    <ol>
+      <li class="course">UI/UX</li>
+      <li class="course">Python</li>
+      <li class="course">Django</li>
+      <li class="course">Laravel</li>
+      <li class="course">GD</li>
+      <li class="course">DM</li>
+    </ol>
+    <script>
+      // document.getElementById()
+      // document.getElementsByClassName()
+      // document.getElementsByTagName()
+
+      // document.querySelector()
+      // document.querySelectorAll()
+
+      // let head = document.getElementById("heading")
+      //   let courses = document.getElementsByClassName("course")
+
+      let courses = document.querySelector(".course");
+      console.log(courses);
+      // console.log(head)
+
+      //   head.textContent = "changes from textcontent";
+      //   head.innerText = "changes from innertext";
+      //   head.innerHTML = "<h1> changes from innerHTML </h1>";
+
+      //   head.style.color = "green"
+
+      //   courses[0].textContent = "PHP"
+      //   courses[0].style.color = "red"
+      //   courses[1].style.color = "blue"
+
+      courses.style.color = "blue";
+    </script>
+  </body>
+</html>
